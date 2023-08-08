@@ -1,0 +1,1190 @@
+@media screen and (max-width: 1150px){
+    /*============| HEADER |============*/
+    header h2{
+        font-size: 25px;
+    }
+
+    header h2 > i{
+        right: 9px;
+        top: 4px;
+    }
+
+    .menu-desktop ul li{
+        margin: 0 25px;
+    }
+
+    .menu-desktop ul li a{
+        font-size: 16px;
+    }
+
+    .menu-desktop ul li a > i{
+        margin-right: 7px;
+    }
+
+    /*============| SECTION-HOME |============*/
+
+    section.home{
+        padding: 200px 5% 100px 5%;
+    }
+
+    .text-home h2{
+        font-size: 35px;
+    }
+
+    .text-home h4{
+        font-size: 18px;
+        margin-top: 4px;
+    }
+    
+    .social{
+        margin-top: 27px;
+    }
+    
+    .social i{
+        margin-right: 16px;
+        font-size: 17px;
+        padding: 5px 6px;
+    }
+    
+    .cv{
+        margin-top: 35px;
+    }
+    
+    .cv a{
+        padding: 10px 23px;
+        font-size: 17px;
+    }
+
+    /*============| SECTION-ABOUT |============*/
+    section.about{
+        padding: 125px 5%;
+    }
+
+    h2.title-about, h2.title-skills, h2.title-contact, h2.title-projects{
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .info-about p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    /*============| SECTION-SKILLS |============*/
+
+    section.skills{
+        padding: 120px 5%;
+    }
+    
+    .skills-wraper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .skills-wraper-singular{
+        display: flex; 
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .skills-singular{
+        width: 50%;
+        margin: 20px 0;
+    }
+    
+    h2.title-singular{
+        font-size: 23px;
+    }
+    
+    .skills-wraper-single{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .skills-single{
+        display: flex;
+        align-items: center;
+        margin: 25px 15px;
+    }
+    
+    .skills-single i{
+        font-size: 30px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .wraper-skills-single h2{
+        text-align: left;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .wraper-skills-single h4{
+        text-align: left;
+        font-weight: lighter;
+        font-size: 17px;
+    }
+
+    /*============| SECTION-PROJECTS |============*/
+
+    section.projects{
+        padding: 120px 5%;
+    }
+
+    .projects-wraper{
+        margin-top: 30px;
+    }
+
+    .project-modal{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        bottom: -100%;
+        display: grid;
+        align-items: flex-end;
+        padding: 18px 14px;
+    }
+
+    .project-modal i{
+        padding: 6px;
+        font-size: 19px;
+    }
+
+    .project-modal h2{
+        font-size: 18px;
+    }
+
+    .project-modal h3{
+        font-size: 13px;
+    }
+
+    /*============| SECTION-CONTACT |============*/
+
+    section.contact{
+        padding: 120px 5%;
+    }
+
+    section.contact form{
+        margin: 20px auto 0 auto;
+        width: 100%;
+    }
+
+    form input[type=text], form input[type=email], form textarea{
+        height: 45px;
+        font-size: 15px;
+        margin: 18px 0;
+    }
+
+    form textarea{
+        resize: none;
+        padding: 9px;
+        height: 90px;
+    }
+
+    form input[type=submit]{
+        padding: 10px 38px;
+        background-color: #fff;
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    /*============| FOOTER |============*/
+
+    footer{
+        padding: 30px 0;
+        width: 100%;
+        background-color: #000524;
+    }
+
+    footer p{
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    /*============| HEADER |============*/
+    header h2{
+        font-size: 23px;
+    }
+
+    header h2 > i{
+        right: 8px;
+        top: 3px;
+    }
+
+    .menu-desktop ul li{
+        margin: 0 18px;
+    }
+
+    .menu-desktop ul li a{
+        font-size: 15px;
+    }
+
+    .menu-desktop ul li a > i{
+        margin-right: 7px;
+    }
+
+    /*============| SECTION-HOME |============*/
+
+    section.home{
+        padding: 180px 5% 100px 5%;
+    }
+    
+    .text-home h2{
+        font-size: 30px;
+    }
+
+    .text-home h4{
+        font-size: 17px;
+        margin-top: 3px;
+    }
+    
+    .social{
+        margin-top: 23px;
+    }
+    
+    .social i{
+        margin-right: 16px;
+        font-size: 16px;
+        padding: 5px 6px;
+    }
+    
+    .cv{
+        margin-top: 30px;
+    }
+    
+    .cv a{
+        padding: 7px 20px;
+        font-size: 16px;
+    }
+
+    /*============| SECTION-ABOUT |============*/
+
+    section.about{
+        padding: 40px 5% 90px 5%;
+    }
+
+    h2.title-about, h2.title-skills, h2.title-contact, h2.title-projects{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .info-about p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /*============| SECTION-SKILLS |============*/
+
+    section.skills{
+        padding: 30px 5% 90px 5%;
+    }
+    
+    .skills-wraper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .skills-wraper-singular{
+        display: flex; 
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .skills-singular{
+        width: 50%;
+        margin: 15px 0;
+    }
+    
+    h2.title-singular{
+        font-size: 20px;
+    }
+    
+    .skills-wraper-single{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .skills-single{
+        display: flex;
+        align-items: center;
+        margin: 20px 10px;
+    }
+    
+    .skills-single i{
+        font-size: 27px;
+        margin-right: 8px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .wraper-skills-single h2{
+        text-align: left;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    
+    .wraper-skills-single h4{
+        text-align: left;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+
+    /*============| SECTION-PROJECTS |============*/
+
+    section.projects{
+        padding: 30px 5% 90px 5%;
+    }
+
+    .projects-wraper{
+        margin-top: 25px;
+    }
+
+    .project-modal{
+        padding: 13px 12px;
+    }
+
+    .project-modal i{
+        padding: 6px;
+        font-size: 19px;
+    }
+
+    .project-modal h2{
+        font-size: 18px;
+    }
+
+    .project-modal h3{
+        font-size: 13px;
+    }
+
+    /*============| SECTION-CONTACT |============*/
+
+    section.contact{
+        padding: 30px 5% 90px 5%;
+    }
+
+    section.contact form{
+        margin: 10px auto 0 auto;
+    }
+
+    form input[type=text], form input[type=email], form textarea{
+        height: 40px;
+        font-size: 15px;
+        margin: 15px 0;
+    }
+
+    form textarea{
+        resize: none;
+        padding: 8px;
+        height: 90px;
+    }
+
+    form input[type=submit]{
+        padding: 8px 30px;
+        background-color: #fff;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    /*============| FOOTER |============*/
+
+    footer{
+        padding: 30px 0;
+        width: 100%;
+        background-color: #000524;
+    }
+
+    footer p{
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    /*============| HEADER |============*/
+    header h2{
+        font-size: 21px;
+    }
+
+    header h2 > i{
+        right: 7px;
+        top: 2px;
+        font-size: 19px;
+    }
+
+    .menu-desktop ul li{
+        margin: 0 15px;
+    }
+
+    .menu-desktop ul li a{
+        font-size: 14px;
+    }
+
+    .menu-desktop ul li a > i{
+        margin-right: 6px;
+    }
+
+    /*============| SECTION-HOME |============*/
+
+    section.home{
+        padding: 160px 5% 90px 5%;
+    }
+    
+    .text-home h2{
+        font-size: 25px;
+    }
+
+    .text-home h4{
+        font-size: 16px;
+        margin-top: 2px;
+    }
+    
+    .social{
+        margin-top: 19px;
+    }
+    
+    .social i{
+        margin-right: 12px;
+        font-size: 15px;
+        padding: 5px 6px;
+    }
+    
+    .cv{
+        margin-top: 25px;
+    }
+    
+    .cv a{
+        padding: 5px 18px;
+        font-size: 15px;
+    }
+
+    /*============| SECTION-ABOUT |============*/
+
+    section.about{
+        padding: 40px 5% 90px 5%;
+    }
+
+    h2.title-about, h2.title-skills, h2.title-contact, h2.title-projects{
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+        
+    section.about > .center{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .info-about{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .img-about{
+        width: 35%;
+        margin-right: 0;
+    }
+
+    .info-about p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    /*============| SECTION-SKILLS |============*/
+
+    section.skills{
+        padding: 30px 5% 90px 5%;
+    }
+    
+    .skills-wraper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .skills-wraper-singular{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .skills-singular{
+        width: 50%;
+        margin: 30px 0;
+    }
+    
+    h2.title-singular{
+        font-size: 23px;
+    }
+    
+    .skills-wraper-single{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .skills-single{
+        display: flex;
+        align-items: center;
+        margin: 25px 30px;
+    }
+    
+    .skills-single i{
+        font-size: 30px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .wraper-skills-single h2{
+        text-align: left;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    .wraper-skills-single h4{
+        text-align: left;
+        font-weight: lighter;
+        font-size: 17px;
+    }
+
+
+    /*============| SECTION-PROJECTS |============*/
+
+    section.projects{
+        padding: 30px 5% 90px 5%;
+    }
+
+    .projects-wraper{
+        margin-top: 30px;
+    }
+
+    .project-modal{
+        padding: 13px 12px;
+    }
+
+    .project-modal i{
+        padding: 6px;
+        font-size: 19px;
+    }
+
+    .project-modal h2{
+        font-size: 18px;
+    }
+
+    .project-modal h3{
+        font-size: 13px;
+    }
+
+    /*============| SECTION-CONTACT |============*/
+
+    section.contact{
+        padding: 30px 5% 90px 5%;
+    }
+
+    section.contact form{
+        margin: 10px auto 0 auto;
+    }
+
+    form input[type=text], form input[type=email], form textarea{
+        height: 40px;
+        font-size: 15px;
+        margin: 15px 0;
+    }
+
+    form textarea{
+        resize: none;
+        padding: 8px;
+        height: 90px;
+    }
+
+    form input[type=submit]{
+        padding: 8px 30px;
+        background-color: #fff;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    /*============| FOOTER |============*/
+
+    footer{
+        padding: 30px 0;
+        width: 100%;
+        background-color: #000524;
+    }
+
+    footer p{
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /*============| HEADER |============*/
+    header h2{
+        font-size: 26px;
+    }
+
+    header h2 > i{
+        right: 8px;
+        top: 2px;
+        font-size: 23px;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .menu-mobile ul{
+        display: none;
+    }
+
+    .menu-mobile i{
+        font-size: 27px;
+        cursor: pointer;
+    }
+
+    header nav.menu-desktop{
+        display: none;
+    }
+
+    /*============| SECTION-HOME |============*/
+
+    section.home{
+        padding: 125px 5% 80px 5%;
+    }
+
+   .img-home{
+        width: 55%;
+        margin-right: 0;
+    }
+
+    section.home > .center{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .text-home{
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .text-home h2{
+        font-size: 27px;
+    }
+
+    .text-home h4{
+        font-size: 20px;
+        margin-top: 2px;
+    }
+    
+    .social{
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .social i{
+        margin-right: 14px;
+        font-size: 20px;
+        padding: 6px 7px;
+    }
+    
+    .cv{
+        margin-top: 35px;
+    }
+    
+    .cv a{
+        padding: 9px 18px;
+        font-size: 18px;
+    }
+
+    /*============| SECTION-ABOUT |============*/
+
+    h2.title-about, h2.title-skills, h2.title-contact, h2.title-projects{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    h2.title-about{
+        margin-top: 5px;
+    }
+
+    section.about{
+        padding: 50px 5% 90px 5%;
+    }
+
+    h2.title-about, h2.title-skills, h2.title-contact, h2.title-projects{
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+
+    .info-about{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .img-about{
+        width: 55%;
+    }
+    
+    .info-about p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /*============| SECTION-SKILLS |============*/
+
+    section.skills{
+        padding: 30px 5% 90px 5%;
+    }
+    
+    .skills-wraper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .skills-wraper-singular{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .skills-singular{
+        width: 50%;
+        margin: 25px 0;
+    }
+    
+    h2.title-singular{
+        font-size: 22px;
+    }
+    
+    .skills-wraper-single{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .skills-single{
+        display: flex;
+        align-items: center;
+        margin: 20px 25px;
+    }
+    
+    .skills-single i{
+        font-size: 27px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .wraper-skills-single h2{
+        text-align: left;
+        font-weight: bold;
+        font-size: 21px;
+    }
+    
+    .wraper-skills-single h4{
+        text-align: left;
+        font-weight: lighter;
+        font-size: 16px;
+    }
+
+    /*============| SECTION-PROJECTS |============*/
+
+    section.projects{
+        padding: 30px 5% 90px 5%;
+    }
+
+    .projects-wraper{
+        margin-top: 20px;
+    }
+
+    .project-single{
+        width: 100%;
+        margin: 25px 60px;
+    }
+
+    .project-modal{
+        padding: 15px;
+    }
+
+    .project-modal i{
+        padding: 6px;
+        font-size: 18px;
+    }
+
+    .project-modal h2{
+        font-size: 16px;
+    }
+
+    .project-modal h3{
+        font-size: 14px;
+    }
+
+    /*============| SECTION-CONTACT |============*/
+
+    section.contact{
+        padding: 30px 5% 90px 5%;
+    }
+
+    section.contact form{
+        margin: 0 auto 0 auto;
+    }
+
+    form input[type=text], form input[type=email], form textarea{
+        height: 40px;
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    form textarea{
+        padding: 8px;
+        height: 80px;
+    }
+
+    form input[type=submit]{
+        padding: 5px 23px;
+        background-color: #fff;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .message p{
+        font-size: 10px;
+        padding: 3px 8px;
+    }
+
+    /*============| FOOTER |============*/
+
+    footer{
+        padding: 30px 0;
+        width: 100%;
+        background-color: #000524;
+    }
+
+    footer p{
+        font-size: 13px;
+        margin-bottom: 1px;
+    }
+}
+
+
+
+@media screen and (max-width: 580px){
+    /*============| HEADER |============*/
+    header h2{
+        font-size: 20px;
+    }
+
+    header h2 > i{
+        right: 6px;
+        top: 2px;
+        font-size: 18px;
+    }
+
+    header nav.menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .menu-mobile ul{
+        display: none;
+    }
+
+    .menu-mobile ul{
+        top: 65px;
+    }
+    
+    .menu-mobile ul li{
+        padding: 10px 10px;
+        margin: 10px 5px;
+        border-left: 4px solid #000e65;
+    }
+    
+    .menu-mobile ul li a{
+        font-size: 14px;
+        padding-left: 2px;
+    }
+    
+    .menu-mobile ul li i{
+        font-size: 14px;
+        margin-right: 7px;
+        top: 2px;
+    }
+    
+    .menu-mobile i{
+        font-size: 22px;
+    }
+
+    /*============| SECTION-HOME |============**/
+
+    .img-home{
+        width: 65%;
+        margin-right: 0;
+    }
+
+    section.home > .center{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .text-home{
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .text-home h2{
+        font-size: 21px;
+    }
+
+    .text-home h4{
+        font-size: 17px;
+        margin-top: 2px;
+    }
+    
+    .social{
+        justify-content: center;
+        margin-top: 23px;
+    }
+    
+    .social i{
+        margin-right: 12px;
+        font-size: 19px;
+        padding: 5px 6px;
+    }
+    
+    .cv{
+        margin-top: 30px;
+    }
+    
+    .cv a{
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+
+    /*============| SECTION-ABOUT |============*/
+
+
+    h2.title-about, h2.title-skills, h2.title-contact, h2.title-projects{
+        font-size: 21px;
+        margin-bottom: 14px;
+    }
+
+    section.about{
+        padding: 30px 5% 80px 5%;
+    }
+
+    .info-about{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .img-about{
+        width: 65%;
+    }
+    
+    .info-about p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /*============| SECTION-SKILLS |============*/
+
+    section.skills{
+        padding: 20px 5% 80px 5%;
+    }
+
+    .skills-wraper{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .skills-wraper-singular{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .skills-singular{
+        width: 50%;
+        margin: 15px 0;
+    }
+    
+    .skills-singular > h2{
+        font-size: 19px;
+    }
+
+    .skills-wraper-single{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .skills-single{
+        display: flex;
+        align-items: center;
+        margin: 15px 20px;
+    }
+    
+    .skills-single i{
+        font-size: 23px;
+        margin-right: 9px;
+        border-radius: 4px;
+        padding: 4px;
+    }
+    
+    .wraper-skills-single h2{
+        text-align: left;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .wraper-skills-single h4{
+        text-align: left;
+        font-weight: lighter;
+        font-size: 13px;
+    }
+
+    /*============| SECTION-PROJECTS |============*/
+
+    section.projects{
+        padding: 20px 5% 80px 5%;
+    }
+
+    h2.more-projects{
+        margin-top: 12px;
+        font-size: 17px;
+    }
+
+    .projects-wraper{
+        margin-top: 20px;
+    }
+
+    .project-single{
+        width: 100%;
+        margin: 25px 15px;
+    }
+
+    .project-modal{
+        padding: 15px;
+    }
+
+    .project-modal i{
+        padding: 6px;
+        font-size: 22px;
+    }
+
+    .project-modal h2{
+        font-size: 18px;
+    }
+
+    .project-modal h3{
+        font-size: 15px;
+    }
+
+    /*============| SECTION-CONTACT |============*/
+
+    section.contact{
+        padding: 20px 5% 80px 5%;
+    }
+
+    .w50{
+        width: 100%;
+    }
+    
+    .w50-wraper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    section.contact form{
+        margin: 0 auto 0 auto;
+    }
+
+    form input[type=text], form input[type=email], form textarea{
+        height: 40px;
+        font-size: 12px;
+        margin: 10px 0;
+    }
+
+    form textarea{
+        padding: 8px;
+        height: 80px;
+    }
+
+    form input[type=submit]{
+        width: 90px;
+        height: 35px;
+        background-color: #fff;
+        font-size: 13px;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .message p{
+        font-size: 8px;
+        padding: 2px 6px;
+    }
+
+    .messageTelefone p{
+        left: 54%;
+    }
+
+    /*============| FOOTER |============*/
+
+    footer{
+        padding: 30px 0;
+        width: 100%;
+        background-color: #000524;
+    }
+
+    footer p{
+        font-size: 13px;
+        margin-bottom: 1px;
+    }
+
+
+    .messageEmail p{
+        bottom: 63%;
+    }
+
+    .messageTelefone p{
+        bottom: 45%;
+    }
+
+    .project-single h2{
+        padding: 7px 17px;
+        font-size: 12px;
+    }
+}
