@@ -140,7 +140,7 @@ sr.reveal('.inputForm', {interval: 50, delay: 250,  distance: '30px'});
 /*==========================================================*/
 
 var typed = new Typed('.work', {
-    strings: ["Front-End", "Back-End", "Web"],
+    strings: ["Front-End", "Back-End", "Web", "Full Stack"],
     typeSpeed: 80,
     backSpeed: 80,
     backDelay: 1000,
