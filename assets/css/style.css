@@ -168,13 +168,9 @@ section.home > .center{
 
 .img-home img, .img-about img{
     width: 100%;
-    border-top-right-radius: 35%;
-    border-top-left-radius: 35%;
-    border-bottom-left-radius: 20%;
+    border-bottom-left-radius: 25%;
     position: relative;
-    border-bottom-right-radius: 20%;
-    /*border-bottom: 8px solid #051056;
-    border-top: 1px solid #051056;*/
+    border-bottom-right-radius: 25%;
     box-shadow: 0 5px 0 #051056, 0 10px 0 #040c3f;
     background-position: center;
     background-repeat: no-repeat;
@@ -303,17 +299,19 @@ section.skills{
     display: flex; 
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     width: 100%;
 }
 
 .skills-singular{
-    width: 50%;
+    width: 33%;
     margin: 20px 0;
 }
 
 h2.title-singular{
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .skills-wraper-single{
@@ -323,11 +321,12 @@ h2.title-singular{
 
 .skills-single{
     display: flex;
-    margin: 30px;
+    align-items: center;
+    margin: 20px;
 }
 
 .skills-single i{
-    font-size: 35px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     margin-right: 13px;
@@ -339,13 +338,13 @@ h2.title-singular{
 .wraper-skills-single h2{
     text-align: left;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 19px;
 }
 
 .wraper-skills-single h4{
     text-align: left;
     font-weight: lighter;
-    font-size: 17px;
+    font-size: 13px;
 }
 /*============| SECTION-PROJECTS |============*/
 
