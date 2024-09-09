@@ -1183,8 +1183,7 @@
         bottom: 45%;
     }
 
-    .project-single h2{
-        padding: 7px 17px;
+    .info-project-single{
         font-size: 12px;
     }
 }
