@@ -322,7 +322,7 @@ h2.title-singular{
 .skills-single{
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .skills-single i{
@@ -348,75 +348,60 @@ h2.title-singular{
 }
 /*============| SECTION-PROJECTS |============*/
 
-section.projects{
-    padding: 110px 5%;
-}
-
-section.skills > .center{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-h2.more-projects{
-    text-align: center;
-    margin-top: 30px;
-    font-weight: lighter;
-    font-size: 20px;
-}
-
 .projects-wraper{
-    margin-top: 25px;
     display: flex;
-    width: 100%;
-    justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
-.project-single{
+.project-single {
     width: 47%;
     margin: 2% 1%;
     position: relative;
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 10px;
 }
 
-.project-single h2{
+.project-single h2 {
     font-size: 13px;
     font-weight: lighter;
     background-color: #000;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     padding: 7px 17px;
+    margin: 0;
 }
 
-.project-single:hover .project-modal{
-    bottom: 0;
-}
-
-.project-single video{
+.project-single video {
     width: 100%;
-    height: 100%;
+    height: auto;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: -17px;
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
 }
 
-.info-project-single{
+.info-project-single {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #000;
+    margin-bottom: 0;
 }
 
-.info-project-single a{
+.info-project-single a {
     font-size: 18px;
     transition: .1s;
 }
 
-.info-project-single a:hover{
+.info-project-single a:hover {
     transform: scale(1.1);
+}
+
+.more-projects{
+    text-align: center;
 }
 
 /*============| SECTION-CONTACT |============*/
